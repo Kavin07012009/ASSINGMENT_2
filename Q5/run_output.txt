@@ -1,0 +1,7 @@
+Buggy default shared across calls: ['tea', 'sandwich'] ['tea', 'sandwich']
+__defaults__ after calls: (['tea', 'sandwich'],)
+customer 1: ['tea']
+customer 2: ['coffee']
+customer 3: ['juice']
+total and GST: (52.5, 2.5)
+global, local, nonlocal demo: (1, 10, 21)

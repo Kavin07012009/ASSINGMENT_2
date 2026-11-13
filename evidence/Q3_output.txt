@@ -1,0 +1,10 @@
+input | normalized | valid | receipt
+'tn 09 ab 1234' | TN09AB1234 | True | TN 09 AB 1234
+'TN-09-AB-1234' | TN09AB1234 | True | TN 09 AB 1234
+'Tn09Ab1234' | TN09AB1234 | True | TN 09 AB 1234
+'MH 12 C 9876' | MH12C9876 | True | MH 12 C 9876
+'A 09 AB 1234' | A09AB1234 | False | -
+'TN-9-AB-1234' | TN9AB1234 | False | -
+9-char suffix/prefix: 1234 A
+10-char suffix/prefix: 1234 AB
+upper() without reassignment: tn09ab1234

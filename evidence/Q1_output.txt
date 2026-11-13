@@ -1,0 +1,9 @@
+units card age80 | separate-if | if-elif-else | match | lookup
+   99 False  False | ['Full subsidy'] | Full subsidy | Full subsidy | Full subsidy
+  100 True  False | ['Full subsidy', 'Partial subsidy'] | Full subsidy | Full subsidy | Full subsidy
+  101 False  False | ['No subsidy'] | No subsidy | No subsidy | No subsidy
+  101 True  False | ['Partial subsidy'] | Partial subsidy | Partial subsidy | Partial subsidy
+  199 True  False | ['Partial subsidy'] | Partial subsidy | Partial subsidy | Partial subsidy
+  200 False  False | ['No subsidy'] | No subsidy | No subsidy | No subsidy
+  201 False  False | ['No subsidy'] | No subsidy | No subsidy | No subsidy
+  201 False   True | ['Senior exception subsidy'] | Senior exception subsidy | Senior exception subsidy | Senior exception subsidy

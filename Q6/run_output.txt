@@ -1,0 +1,15 @@
+hand-check n=1..6: [1, 2, 3, 5, 8, 13]
+plain recursive call counts
+n=10: ways=89, calls=109
+n=20: ways=10946, calls=13529
+n=25: ways=121393, calls=150049
+n=30: ways=1346269, calls=1664079
+memoized calls (cache cleared per n)
+n=10: ways=89, wrapper_calls=1, computed_states=10
+n=20: ways=10946, wrapper_calls=1, computed_states=20
+n=25: ways=121393, wrapper_calls=1, computed_states=25
+n=30: ways=1346269, wrapper_calls=1, computed_states=30
+recursion limit: 1000
+plain recursive n=1000 raised: RecursionError after 998 calls
+memoized n=1000 raised: RecursionError
+iterative n=1000 digits: 209

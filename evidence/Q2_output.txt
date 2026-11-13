@@ -1,0 +1,15 @@
+WHILE: blank, wrong, wrong, correct
+Blank entry: not counted
+Wrong OTP (1/3)
+Wrong OTP (2/3)
+Verified on attempt 3
+result: (True, 3, False)
+FOR: three wrong
+Wrong OTP (1/3)
+Wrong OTP (2/3)
+Wrong OTP (3/3)
+Loop else: account locked for 30 minutes
+result: (False, 3, True)
+Security answer accepted: two extra attempts
+Changed rule: (True, 5, False)
+Recursive three wrong: (False, 3, True)
