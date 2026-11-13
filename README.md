@@ -4,11 +4,11 @@ Python solutions and execution evidence for Q1–Q7. The programs use the Python
 
 ## Student details
 
-- Name: **[Enter your full name]**
-- Register number: **[Enter your register number]**
+- Name: **[R.B.KAVIN SANDRON]**
+- Register number: **[1912260623]**
 - Python used for captured results: **Python 3.14.7**
-- Repository name required by the assignment: **CSA08-[RegisterNumber]-Assignment2**
-- GitHub repository link: **[Paste the created GitHub URL here]**
+- Repository name required by the assignment: **CSA08-[1912260623]-Assignment2**
+
 
 ## Run each task
 
